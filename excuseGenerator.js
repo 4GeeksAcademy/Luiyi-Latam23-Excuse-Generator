@@ -1,15 +1,3 @@
-/* eslint-disable */
-import "bootstrap";
-import "./style.css";
-
-import "./assets/img/rigo-baby.jpg";
-import "./assets/img/4geeks.ico";
-
-window.onload = function() {
-  //write your code here
-  console.log("Hello Rigo from the console!");
-};
-
 // Define arrays for the excuse generator
 let who = ["The dog", "My grandma", "His turtle", "My bird"];
 let action = ["ate", "peed", "crushed", "broke"];
@@ -19,7 +7,7 @@ let when = [
   "right on time",
   "when I finished",
   "during my lunch",
-  "while I was praying"
+  "while I was praying",
 ];
 
 // Get the excuse using getelementById
